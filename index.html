@@ -3,15 +3,25 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Odin Recipes</title>
+        <title>Christmas Recipes</title>
+        <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="/recipes/blanquette-de-veau.html">Blanquette de veau</a></li>
-            <li><a href="/recipes/camembert-roti.html">Baked camembert</a></li>
-            <li><a href="/recipes/spaghetti.html">Spaghetti Bolognese</a></li>
+        <h1>Christmas Recipes</h1>
+        <ul class="recipe-container">
+            <div class="recipe-card">
+                <a href="/recipes/blanquette-de-veau.html"><img src="/img/blanquette.jpg" alt="Blanquette de veau"></a>
+                <li><a href="/recipes/blanquette-de-veau.html">Blanquette de veau</a></li>
+            </div>          
+            <div class="recipe-card">
+                <a href="/recipes/camembert-roti.html"><img src="/img/camembert.jpeg" alt="Camembert"></a>
+                <li><a href="/recipes/camembert-roti.html">Baked camembert</a></li>
+            </div>  
+            <div class="recipe-card">
+                <a href="/recipes/spaghetti.html"><img src="/img/spaghetti.jpg" alt="Spaghetti bolognese"></a>
+                <li><a href="/recipes/spaghetti.html">Spaghetti Bolognese</a></li>
+            </div>        
         </ul>
     </body>
 </html>
